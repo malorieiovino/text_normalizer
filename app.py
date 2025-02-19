@@ -7,7 +7,6 @@ import re
 slang_dict = {
     "omg": "oh my god",
     "idk": "i do not know",
-    "ik": "i know", 
     "wut": "what",
     "u": "you",
     "ur": "your",
@@ -66,7 +65,10 @@ slang_dict = {
     "kinda": "kind of", 
     "sorta": "sort of", 
     "fire": "amazing", 
-    "lit": "awesome"
+    "lit": "awesome", 
+    "ik": "I know", 
+    "idek": "I don't even know", 
+    "idec": "I don't even care"
     
     
 }
