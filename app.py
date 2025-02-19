@@ -90,13 +90,16 @@ def normalize_text(text: str) -> str:
     words = [slang_dict[word] if word in slang_dict else word for word in words]
     
     # Correct spelling with a fallback to the original word
-    spell = SpellChecker()
-    words = [spell.correction(word) if spell.correction(word) else word for word in words]
-    
-    # Reassemble the cleaned text
-    normalized_text = ' '.join(words)
-    
-    return normalized_text
+   spell = SpellChecker()
+    corrected_words = []
+    for word in words:
+        # If the token contains spaces, assume it's a slang expansion and skip spell correction
+        if " " in word:
+            corrected_words.append(word)
+        else:
+            # Apply spell correction
+            corrected = spell.correction(word)
+            corrected_words.append(corrected if corrected else word)
 
 # Streamlit UI
 st.title("Text Normalization Tool")
