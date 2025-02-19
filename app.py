@@ -1,7 +1,35 @@
 import streamlit as st
-from spellchecker import SpellChecker
-import contractions
 import re
+import contractions
+from spellchecker import SpellChecker
+
+# Set page configuration
+st.set_page_config(
+    page_title="Text Normalizer",
+    page_icon="📝",
+    layout="centered"
+)
+
+# Inject custom CSS
+st.markdown(
+    """
+    <style>
+    .title { text-align: center; font-size: 2.5em; font-weight: bold; }
+    .stTextArea textarea { font-size: 16px; line-height: 1.5; }
+    .stButton button { background-color: #4CAF50; color: white; border: none; padding: 10px 24px; border-radius: 4px; cursor: pointer; }
+    .stButton button:hover { background-color: #45a049; }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# App header
+st.image("https://your-image-url.com/logo.png", width=150)
+st.markdown('<p class="title">Text Normalizer</p>', unsafe_allow_html=True)
+
+# Sidebar instructions
+st.sidebar.title("Instructions")
+st.sidebar.write("Paste your text in the main area and click the button to normalize it.")
 
 # Define a dictionary for slang and abbreviation translations
 slang_dict = {
