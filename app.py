@@ -12,6 +12,7 @@ slang_dict = {
     "u": "you",
     "ur": "your",
     "brb": "be right back",
+    "r": "are", 
     "lol": "laughing out loud",
     "ttyl": "talk to you later",
     "btw": "by the way",
