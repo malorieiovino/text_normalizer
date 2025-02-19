@@ -99,7 +99,9 @@ slang_dict = {
     "idec": "I don't even care", 
     "afaik": "as far as I know", 
     "rofl": "rolling on the floor laughing", 
-    "rotfl": "rolling on the floor laughing"
+    "rotfl": "rolling on the floor laughing", 
+    "ily": "I love you", 
+    "ilysm": "I love you so much"
     
     
 }
