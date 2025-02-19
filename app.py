@@ -5,6 +5,7 @@ from spellchecker import SpellChecker
 
 # Set page configuration
 st.set_page_config(
+    page_title="Text Normalizer",
     page_icon="📝",
     layout="centered"
 )
