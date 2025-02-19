@@ -24,7 +24,7 @@ st.markdown(
 )
 
 # App header
-st.image("https://your-image-url.com/logo.png", width=150)
+st.image("https://raw.githubusercontent.com/malorieiovino/text_normalizer/main/phone.gif", use_column_width=True)
 st.markdown('<p class="title">Text Normalizer</p>', unsafe_allow_html=True)
 
 # Sidebar instructions
