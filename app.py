@@ -7,6 +7,7 @@ import re
 slang_dict = {
     "omg": "oh my god",
     "idk": "i do not know",
+    "ik": "i know", 
     "wut": "what",
     "u": "you",
     "ur": "your",
