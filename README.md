@@ -2,39 +2,43 @@
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-orange)](https://share.streamlit.io/<your-username>/<your-repo-name>/app.py)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/<your-username>/<your-repo-name>.svg?style=flat-square)](https://github.com/<your-username>/<your-repo-name>/stargazers)
-[![Forks](https://img.shields.io/github/forks/<your-username>/<your-repo-name>.svg?style=flat-square)](https://github.com/<your-username>/<your-repo-name>/network)
-[![Issues](https://img.shields.io/github/issues/<your-username>/<your-repo-name>.svg?style=flat-square)](https://github.com/<your-username>/<your-repo-name>/issues)
 
-An interactive **text normalization tool** built with **Streamlit**. This project takes informal, unstructured text (like social media posts or SMS messages) and converts it into a more formal or standardized format. It handles:
+An **interactive text normalization tool** built with **Streamlit**. This project cleans and standardizes informal text (like social media posts or SMS messages) into a more formal format. 
 
-- **Contraction Expansion** (e.g., "don't" → "do not")  
-- **Slang & Abbreviation Translation** (e.g., "omg" → "oh my god")  
-- **Spelling Correction**  
-- **Basic Cleanup** (e.g., removing special characters)
-
-## Demo
-
-Click the badge above or use this link:  
-**[Live Demo](https://textnormalizer-bqw8arw4htdoxudetu7ddz.streamlit.app/)**
-
+**Live Demo**:  
+[**Click Here**](https://textnormalizer-bqw8arw4htdoxudetu7ddz.streamlit.app/) to try it out immediately
 
 ---
 
 ## Features
-
-- **Expand Contractions:** Automatically replaces contractions like `can't` with `cannot`.
-- **Slang & Abbreviation Dictionary:** Converts common internet slang like `brb` → `be right back`.
-- **Spelling Checker:** Uses [pyspellchecker](https://pypi.org/project/pyspellchecker/) to correct typographical errors.
-- **Interactive Web App:** Powered by [Streamlit](https://streamlit.io/).
+- **Contraction Expansion:** Convert things like "don't" → "do not".
+- **Slang & Abbreviation Translation:** "omg" → "oh my god", "brb" → "be right back".
+- **Spelling Correction:** Fixes common typos and misspellings.
+- **Cleanup:** Removes unnecessary punctuation or special characters.
 
 ---
 
-## Getting Started
+## How It Works
+1. **Open the Live Demo** link.
+2. **Paste Your Text** in the provided text area.
+3. **Click “Normalize Text”** to see the processed output.
 
-### 1. Clone the Repository
+### Example
 
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+- **Input:**  
+OMG IDK wut u mean, BRB
+
+- **Output:**  
+Oh my god I don't know what you mean, be right back
+
+
+---
+
+## About This Project
+- Built **just for fun** to demonstrate quick NLP skills.
+- No license or repository cloning needed—please enjoy the live demo!
+
+---
+
+## Questions or Feedback?
+Feel free to reach out directly (if you’d like), or just enjoy using the tool!
