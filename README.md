@@ -36,6 +36,7 @@ Oh my god I don't know what you mean, be right back
 
 ## About This Project
 - Built **just for fun** to demonstrate quick NLP skills.
+- Over 150 slang and abbreviations in dictionary 
 - No license or repository cloning needed—please enjoy the live demo!
 
 ---
