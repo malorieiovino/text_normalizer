@@ -97,7 +97,9 @@ slang_dict = {
     "ik": "I know", 
     "idek": "I don't even know", 
     "idec": "I don't even care", 
-    "afaik": "as far as I know" 
+    "afaik": "as far as I know", 
+    "rofl": "rolling on the floor laughing", 
+    "rotfl": "rolling on the floor laughing"
     
     
 }
