@@ -96,7 +96,8 @@ slang_dict = {
     "lit": "awesome", 
     "ik": "I know", 
     "idek": "I don't even know", 
-    "idec": "I don't even care"
+    "idec": "I don't even care", 
+    "afaik": "as far as I know" 
     
     
 }
