@@ -9,6 +9,7 @@ slang_dict = {
     "idk": "i do not know",
     "wut": "what",
     "u": "you",
+    "ur": "your",
     "brb": "be right back",
     "lol": "laughing out loud",
     "ttyl": "talk to you later",
